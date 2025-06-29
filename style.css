@@ -175,3 +175,50 @@ footer {
   padding: 1rem;
   font-size: 0.9rem;
 }
+
+.form-container {
+  max-width: 400px;
+  margin: 80px auto;
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+input {
+  padding: 0.6rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  margin-top: 0.2rem;
+}
+
+button {
+  margin-top: 1.5rem;
+  padding: 0.8rem;
+  background-color: #1c75bc;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #145d8c;
+}
+
+a {
+  color: #1c75bc;
+  text-decoration: none;
+}
