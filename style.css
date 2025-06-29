@@ -4,6 +4,7 @@ body {
   font-family: 'Segoe UI', sans-serif;
   background-color: #f4f8fb;
   color: #102542;
+  scroll-behavior: smooth;
 }
 
 header {
@@ -45,9 +46,10 @@ nav a.active, nav a:hover {
 .hero {
   background: linear-gradient(to bottom right, #0b2c4d, #145d8c);
   color: white;
-  padding: 100px 20px 60px;
+  padding: 100px 20px 150px; /* เพิ่ม padding ล่างเพื่อให้พ้นคลื่น */
   text-align: center;
   position: relative;
+  overflow: hidden;
 }
 
 .hero-content h1 {
@@ -82,11 +84,12 @@ nav a.active, nav a:hover {
   background: #f4f8fb;
   border-top-left-radius: 100% 30%;
   border-top-right-radius: 100% 30%;
+  z-index: 0;
 }
 
 /* Services Section */
 .services {
-  padding: 60px 20px;
+  padding: 80px 20px 60px;
   text-align: center;
   background-color: #f4f8fb;
 }
