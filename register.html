@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>สมัครสมาชิก | Navy Guardian</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="form-container">
+    <h2>🔰 สมัครสมาชิก</h2>
+    <form onsubmit="register(event)">
+      <label>ชื่อใน Roblox</label>
+      <input type="text" required>
+
+      <label>Discord</label>
+      <input type="text" required>
+
+      <label>อีเมล</label>
+      <input type="email" required>
+
+      <label>ชื่อจริง</label>
+      <input type="text" required>
+
+      <label>รหัสผ่าน</label>
+      <input type="password" required>
+
+      <button type="submit">📤 สมัครสมาชิก</button>
+      <p>มีบัญชีแล้ว? <a href="login.html">เข้าสู่ระบบ</a></p>
+    </form>
+  </div>
+
+  <script>
+    function register(event) {
+      event.preventDefault();
+      alert("✅ ลงทะเบียนสำเร็จ (จำลอง)");
+    }
+  </script>
+</body>
+</html>
